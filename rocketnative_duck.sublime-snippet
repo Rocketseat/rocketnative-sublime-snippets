@@ -1,0 +1,36 @@
+<snippet>
+  <content><![CDATA[
+import { createReducer, createActions } from 'reduxsauce';
+import Immutable from 'seamless-immutable';
+
+/* Types & Action Creators */
+
+const { Types, Creators } = createActions({
+  // actionType: ['dataPassed'],
+});
+
+export const ${1:${TM_FILENAME/(^|-|\.js)(.?)|/\U\2\E/g}}Types = Types;
+export default Creators;
+
+/* Initial State */
+
+export const INITIAL_STATE = Immutable({
+  // data: [],
+});
+
+/* Reducers */
+
+// export const reducer = state =>
+//   state.merge({ data: [] });
+
+/* Reducers to types */
+
+export const reducer = createReducer(INITIAL_STATE, {
+  // [Types.ACTION_TYPE]: reducer,
+});
+
+]]></content>
+  <tabTrigger>rnd</tabTrigger>
+  <scope>source.js,source.jsx</scope>
+  <description>Create react-native duck module</description>
+</snippet>
