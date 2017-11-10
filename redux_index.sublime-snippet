@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+import { combineReducers } from 'redux';
+
+/* Reducers */
+// import navReducer from 'navigation/reducer';
+
+import configureStore from './configureStore';
+// import rootSaga from './sagas';
+
+export default () => {
+  const rootReducer = combineReducers({
+    // nav: navReducer,
+  });
+
+  return configureStore(rootReducer, rootSaga);
+};
+
+]]></content>
+  <tabTrigger>reduxSetup</tabTrigger>
+  <scope>source.js,source.jsx</scope>
+  <description>Create Redux Setup file</description>
+</snippet>

@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+/* Core */
+import React from 'react';
+
+/* Presentational */
+import { View } from 'react-native';
+
+// import styles from './styles';
+
+const ${1:${TM_FILENAME/(.+)\..+|.*/$1/:MyComponent}} = () => (
+  <View />
+);
+
+export default ${1:${TM_FILENAME/(.+)\..+|.*/$1/:MyComponent}};
+
+]]></content>
+  <tabTrigger>componentStateless</tabTrigger>
+  <scope>source.js,source.jsx</scope>
+  <description>Create react-native stateless component</description>
+</snippet>

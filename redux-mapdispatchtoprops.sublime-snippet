@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+const mapDispatchToProps = dispatch => ({
+  ${1}
+});
+
+]]></content>
+  <tabTrigger>mapDispatchToProps</tabTrigger>
+  <scope>source.js,source.jsx</scope>
+  <description>Create redux mapDispatchToProps</description>
+</snippet>

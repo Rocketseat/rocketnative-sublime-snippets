@@ -1,0 +1,30 @@
+<snippet>
+  <content><![CDATA[
+import { createStore, applyMiddleware, compose } from 'redux';
+
+export default (rootReducer) => {
+  const middleware = [];
+  const enhancers = [];
+
+  /* Saga */
+  // const sagaMonitor = __DEV__ ? console.tron.createSagaMonitor() : null;
+  // const sagaMiddleware = createSagaMiddleware({ sagaMonitor });
+  // middleware.push(sagaMiddleware);
+
+  enhancers.push(applyMiddleware(...middleware));
+
+  /* Store */
+  const createAppropriateStore = __DEV__ ? console.tron.createStore : createStore;
+  const store = createAppropriateStore(rootReducer, compose(...enhancers));
+
+  /* Run Saga */
+  // sagaMiddleware.run(rootSaga);
+
+  return store;
+};
+
+]]></content>
+  <tabTrigger>configureStore</tabTrigger>
+  <scope>source.js,source.jsx</scope>
+  <description>Create configureStore file</description>
+</snippet>

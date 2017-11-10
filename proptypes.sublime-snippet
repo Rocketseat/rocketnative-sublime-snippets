@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+static propTypes = {
+   ${1}
+};
+
+]]></content>
+  <tabTrigger>proptypes</tabTrigger>
+  <scope>source.js,source.jsx</scope>
+  <description>Create component propTypes</description>
+</snippet>

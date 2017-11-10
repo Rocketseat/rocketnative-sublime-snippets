@@ -30,7 +30,7 @@ export const reducer = createReducer(INITIAL_STATE, {
 });
 
 ]]></content>
-  <tabTrigger>rnd</tabTrigger>
+  <tabTrigger>duck</tabTrigger>
   <scope>source.js,source.jsx</scope>
   <description>Create react-native duck module</description>
 </snippet>

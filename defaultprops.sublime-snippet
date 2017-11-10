@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+static defaultProps = {
+   ${1}
+};
+
+]]></content>
+  <tabTrigger>defaultprops</tabTrigger>
+  <scope>source.js,source.jsx</scope>
+  <description>Create component defaultProps</description>
+</snippet>

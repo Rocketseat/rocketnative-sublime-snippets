@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+render() {
+  return (
+    ${1:<View />}
+  );
+}
+
+]]></content>
+  <tabTrigger>render</tabTrigger>
+  <scope>source.js,source.jsx</scope>
+  <description>Create render method</description>
+</snippet>

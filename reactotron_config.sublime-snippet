@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+import Reactotron from 'reactotron-react-native';
+
+if (__DEV__) {
+  const tron = Reactotron
+    .configure()
+    .useReactNative()
+    .connect();
+
+  tron.clear();
+
+  console.tron = tron;
+}
+
+]]></content>
+  <tabTrigger>reactotronconfig</tabTrigger>
+  <scope>source.js,source.jsx</scope>
+  <description>Create Reactotron Config</description>
+</snippet>

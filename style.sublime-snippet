@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
 export default styles;
 
 ]]></content>
-  <tabTrigger>rns</tabTrigger>
+  <tabTrigger>styles</tabTrigger>
   <scope>source.js,source.jsx</scope>
   <description>Create react-native Style file</description>
 </snippet>

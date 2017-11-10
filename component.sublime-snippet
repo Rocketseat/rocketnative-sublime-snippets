@@ -2,7 +2,6 @@
   <content><![CDATA[
 /* Core */
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 
 /* Presentational */
 import { View } from 'react-native';
@@ -10,12 +9,6 @@ import { View } from 'react-native';
 // import styles from './styles';
 
 export default class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:MyComponent}} extends Component {
-  static propTypes = {};
-
-  static defaultProps = {};
-
-  static state = {};
-
   render() {
     return (
       <View />
@@ -24,7 +17,7 @@ export default class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:MyComponent}} extends Com
 }
 
 ]]></content>
-  <tabTrigger>rnc</tabTrigger>
+  <tabTrigger>component</tabTrigger>
   <scope>source.js,source.jsx</scope>
   <description>Create react-native component</description>
 </snippet>

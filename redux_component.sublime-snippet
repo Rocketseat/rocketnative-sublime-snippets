@@ -1,0 +1,36 @@
+<snippet>
+  <content><![CDATA[
+/* Core */
+import React, { Component } from 'react';
+
+/* Presentational */
+import { View } from 'react-native';
+
+/* Redux */
+import { connect } from 'react-redux';
+
+// import styles from './styles';
+
+class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:MyComponent}} extends Component {
+  render() {
+    return (
+      <View />
+    );
+  }
+}
+
+const mapStateToProps = state => ({
+
+});
+
+const mapDispatchToProps = dispatch => ({
+
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(${1:${TM_FILENAME/(.+)\..+|.*/$1/:MyComponent}});
+
+]]></content>
+  <tabTrigger>reduxComponent</tabTrigger>
+  <scope>source.js,source.jsx</scope>
+  <description>Create react-native Redux component</description>
+</snippet>

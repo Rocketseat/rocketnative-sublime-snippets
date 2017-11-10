@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+const mapStateToProps = state => ({
+  ${1}
+});
+
+]]></content>
+  <tabTrigger>mapStateToProps</tabTrigger>
+  <scope>source.js,source.jsx</scope>
+  <description>Create redux mapStateToProps</description>
+</snippet>

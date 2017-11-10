@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+"plugins": [
+  [
+    "module-resolver",
+    {
+      "root": ["./src"],
+      "extensions": [".js", ".ios.js", ".android.js"]
+    }
+  ]
+]
+
+]]></content>
+  <tabTrigger>moduleResolver</tabTrigger>
+  <scope>source.babelrc,source.json</scope>
+  <description>Create Module Resolver config</description>
+</snippet>

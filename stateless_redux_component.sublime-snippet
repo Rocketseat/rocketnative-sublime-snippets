@@ -1,8 +1,7 @@
 <snippet>
   <content><![CDATA[
 /* Core */
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+import React from 'react';
 
 /* Presentational */
 import { View } from 'react-native';
@@ -12,19 +11,9 @@ import { connect } from 'react-redux';
 
 // import styles from './styles';
 
-class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:MyComponent}} extends Component {
-  static propTypes = {};
-
-  static defaultProps = {};
-
-  static state = {};
-
-  render() {
-    return (
-      <View />
-    );
-  }
-}
+const ${1:${TM_FILENAME/(.+)\..+|.*/$1/:MyComponent}} = () => (
+  <View />
+);
 
 const mapStateToProps = state => ({
 
@@ -37,7 +26,7 @@ const mapDispatchToProps = dispatch => ({
 export default connect(mapStateToProps, mapDispatchToProps)(${1:${TM_FILENAME/(.+)\..+|.*/$1/:MyComponent}});
 
 ]]></content>
-  <tabTrigger>rnrc</tabTrigger>
+  <tabTrigger>reduxComponentStateless</tabTrigger>
   <scope>source.js,source.jsx</scope>
-  <description>Create react-native Redux component</description>
+  <description>Create react-native stateless Redux component</description>
 </snippet>
