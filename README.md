@@ -13,7 +13,7 @@
     - [Apisauce](#apisauce)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/diego3g/rocketnative-sublime-snippets/master/demo.gif" width="200">
+  <img src="https://raw.githubusercontent.com/diego3g/rocketnative-sublime-snippets/master/demo.gif" width="100%">
 </p>
 
 ### Installation
