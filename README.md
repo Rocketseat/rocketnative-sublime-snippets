@@ -12,6 +12,8 @@
     - [Babel](#babel)
     - [Apisauce](#apisauce)
 
+![Demo](https://raw.githubusercontent.com/diego3g/rocketnative-sublime-snippets/master/demo.gif)
+
 ### Installation
 To install through [Package Control](http://wbond.net/sublime_packages/package_control),
 search for **RocketNative Snippets**. If you still don't have Package Control in Sublime Text, [go get it](http://wbond.net/sublime_packages/package_control/installation).
