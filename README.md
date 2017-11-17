@@ -12,9 +12,7 @@
     - [Babel](#babel)
     - [Apisauce](#apisauce)
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/diego3g/rocketnative-sublime-snippets/master/demo.gif" width="100%">
-</p>
+![Demo](https://raw.githubusercontent.com/diego3g/rocketnative-sublime-snippets/master/demo.gif)
 
 ### Installation
 To install through [Package Control](http://wbond.net/sublime_packages/package_control),
