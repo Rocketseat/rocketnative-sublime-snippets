@@ -1,5 +1,22 @@
-# RocketNative Snippets
-## React Native code snippets for Sublime Text
+
+
+<div align="center">
+    <h1 align="center">DEPRECATED</h1>
+    <p align="center">
+        🚨 Hey, this repository is DEPRECATED and will no longer be actively maintained!
+    </p>
+</div>
+
+
+<br />
+<br />
+<br />
+<br />
+<br />
+
+## RocketNative Snippets
+
+React Native code snippets for Sublime Text
 
 ## Summary
 
